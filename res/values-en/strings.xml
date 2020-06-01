@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">HelloWorld</string>
+    <string-array name="spin_arr">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="report_spin_arr">
+        <item>report issue1</item>
+        <item>report issue2</item>
+        <item>report issue3</item>
+        <item>report issue4</item>
+        <item>etc</item>
+    </string-array>
+    <string name="a1">Login</string>
+    <string name="a2">Sign-up</string>
+    <string name="a3">Email</string>
+    <string name="a3_1">Password</string>
+    <string name="a3_2">4~16 digits</string>
+    <string name="a4">Name</string>
+    <string name="a5">Phone Number</string>
+    <string name="a6">Gender</string>
+    <string name="a7">Sign-up</string>
+    <string name="a8">Male</string>
+    <string name="a9">Female</string>
+    <string name="a10">Submit</string>
+    <string name="a11">Close</string>
+
+    <string name="b1">Host List</string>
+    <string name="b2">Search</string>
+    <string name="b3">Hosting not available</string>
+    <string name="b4">Hosting maybe available</string>
+    <string name="b5">Hosting available</string>
+    <string name="b6">Speaking Languages</string>
+
+    <string name="c1">Edit Profile</string>
+    <string name="c2">Save</string>
+    <string name="c3">Your Information</string>
+    <string name="c3_1">Name</string>
+    <string name="c3_2">Introduction</string>
+    <string name="c4">Interest</string>
+    <string name="c4_1">About Interest</string>
+    <string name="c5">Why you are on Hello World!</string>
+    <string name="c6">Music, Book, Movie</string>
+    <string name="c7">Impressive Experience</string>
+    <string name="c8">What you can offer to host</string>
+    <string name="c9">Countries visited</string>
+    <string name="c10">Countries lived in</string>
+    <string name="c11">Fluent language</string>
+    <string name="c12">Learning language</string>
+    <string name="c13">Occupation</string>
+    <string name="c14">Education</string>
+    <string name="c15">Where you are born</string>
+    <string name="c16">Address</string>
+    <string name="c17">City</string>
+    <string name="c18">Country</string>
+    <string name="c19">Postal code</string>
+    <string name="c20">Specific address</string>
+    <string name="c21">Hosting preference</string>
+    <string name="c22">Not Available</string>
+    <string name="c23">Maybe Available</string>
+    <string name="c24">Available</string>
+    <string name="c25">Acceptable Guests</string>
+    <string name="c26">Prefer Gender</string>
+    <string name="c27">Male</string>
+    <string name="c28">Female</string>
+    <string name="c29">Not Matter</string>
+    <string name="c30">Yes</string>
+    <string name="c31">No</string>
+    <string name="c32">Prefer Kid</string>
+    <string name="c33">Prefer Animal</string>
+    <string name="c34">Prefer Wheelchair</string>
+    <string name="c35">Prefer Smoking</string>
+    <string name="c36">Hosting Information</string>
+    <string name="c37">I have a kid</string>
+    <string name="c38">I have a pet</string>
+    <string name="c39">I smoke</string>
+    <string name="c40">Bed offer</string>
+    <string name="c41">Cohabit member</string>
+    <string name="c42">Traffic stance</string>
+    <string name="c43">What can you offer to guest</string>
+    <string name="c44">Other things to share</string>
+
+    <string name="d1">Name</string>
+    <string name="d2">Place</string>
+    <string name="d3">Date</string>
+    <string name="d4">Limit members</string>
+    <string name="d5">Event name</string>
+    <string name="d6">Ex)Coex Aquarium</string>
+    <string name="d7">Ex)June, 6th, 2019</string>
+    <string name="d8">Ex)20</string>
+    <string name="d9">Describe your event</string>
+    <string name="d10">Save</string>
+
+    <string name="e1">Organizer</string>
+    <string name="e2">Join this event</string>
+
+
+
+    <string name="report_prompt">Select your report issue</string>
+    <string name="f1">Describe specifically</string>
+    <string name="f2">Done</string>
+
+    <string name="g1">Name</string>
+    <string name="g2">Address info</string>
+    <string name="g3">Request Accomodation</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

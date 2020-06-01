@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:layout_marginLeft="5dp">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:inputType="textPersonName"
+                    android:text="Nickname"
+                    android:ems="10"
+                    android:id="@+id/textView_review1" android:textSize="14sp"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:inputType="textPersonName"
+                    android:text="Rating"
+                    android:ems="10"
+                    android:id="@+id/textView_review2" android:textSize="14sp"/>
+        </LinearLayout>
+        <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/ratingBar_review"
+                android:clickable="false" style="@android:style/Widget.Holo.Light.RatingBar.Small"
+                android:layout_gravity="bottom" android:layout_marginBottom="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+                android:text="Review"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/textView_reviewR" android:layout_marginLeft="50dp"/>
+    </LinearLayout>
+</LinearLayout>

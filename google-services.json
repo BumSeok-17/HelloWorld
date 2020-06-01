@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "539806688",
+    "firebase_url": "https://mobileprogramming-a48f9.firebaseio.com",
+    "project_id": "mobileprogramming-a48f9",
+    "storage_bucket": "mobileprogramming-a48f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:539806688:android:b6dff023b0209944",
+        "android_client_info": {
+          "package_name": "com.android.helloworld"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "539806688-92urnkm5ft5pv1br9i5924bcompnpvlk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTIVdhs7H87eLG0zgL-OstMNV_anLb9TM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "539806688-92urnkm5ft5pv1br9i5924bcompnpvlk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

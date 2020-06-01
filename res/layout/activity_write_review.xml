@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".WriteReviewActivity" android:background="@android:color/background_light">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" android:layout_weight="1" android:background="@drawable/border_bottom_gray"
+            android:layout_marginHorizontal="10dp">
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" android:layout_weight="1">
+            <Button
+                    android:text="X"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" android:id="@+id/cancelbutton"
+                    android:background="@android:color/background_light" android:layout_weight="0.7"/>
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:inputType="textPersonName"
+                    android:text="호스트이름"
+                    android:ems="10"
+                    android:id="@+id/textViewR1" android:textAlignment="center" android:textSize="18sp"
+                    android:layout_weight="5" android:gravity="center_vertical"/>
+            <Button
+                    android:text="완료"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" android:id="@+id/Submitbutton" android:layout_weight="0.9"
+                    android:background="@android:color/background_light"/>
+        </LinearLayout>
+        <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:isIndicator="false"
+                android:numStars="5"
+                android:rating="0"
+                android:stepSize="0.5"
+                android:max="5"
+                android:id="@+id/ratingBar" android:layout_gravity="center|center_vertical"
+                android:layout_weight="1.5"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:inputType="textPersonName"
+                android:text="호스팅이 어떠셨나요?"
+                android:ems="10"
+                android:id="@+id/textViewR2" android:textAlignment="center" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" android:layout_weight="5">
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:gravity="start|top"
+                android:ems="10"
+                android:id="@+id/multiLineTextView" android:background="@android:color/transparent"/>
+    </LinearLayout>
+</LinearLayout>

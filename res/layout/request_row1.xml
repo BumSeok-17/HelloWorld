@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" android:layout_weight="5">
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" android:layout_marginLeft="5dp" android:layout_weight="1">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/textView_A1" android:layout_weight="1"
+                    android:text="name"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/textView_A2" android:layout_weight="1"
+                    android:text="status"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" android:layout_marginLeft="5dp" android:layout_weight="1">
+            <TextView
+                    android:text="rating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/textView_A3" android:layout_weight="1"/>
+            <TextView
+                    android:text="date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/textView_A4" android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+    <Button
+            android:text="취소/리뷰/채팅/삭제"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" android:id="@+id/buttonA" android:layout_weight="1"
+            android:background="@drawable/rounded_login" android:textColor="@android:color/background_light"/>
+</LinearLayout>
